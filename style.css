@@ -4,7 +4,11 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
+
 
 .logo img {
   height: 50px;
@@ -13,12 +17,14 @@
 }
 
 .menu ul {
-  padding: 0;
+  padding-left: 0;  
+
 }
 
 .menu ul li {
   display: inline-block;
   padding: 15px;
+
 }
 
 .menu a {
@@ -26,7 +32,16 @@
   text-decoration: none;
 }
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr ;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
 .sidebar {
+  grid-column: 1;
   background: #2d2d2d;
   color: white;
   text-align: center;
