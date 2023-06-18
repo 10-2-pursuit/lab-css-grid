@@ -1,6 +1,35 @@
 /* Write your CSS here! */
+.menu  {
+  text-align: center;
+  display: block;
+}
 
 
+.main {
+  display: grid;
+  width: 900px;
+  
+
+}
+
+.sidebar {
+  grid-row: 1/5;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+ width: 300px;
+
+}
+
+.primary-content{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-areas:
+  "s"
+  "s"
+  "s"
+  "s" ;
+}
 
 
 
