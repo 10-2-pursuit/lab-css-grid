@@ -1,4 +1,38 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+  grid-template-areas: 
+  "l m m m";
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: repeat(1fr, 5);
+  grid-template-areas: 
+  "s mn mn mn mn"
+  "f f f f f";
+}
+
+.logo {
+  grid-area: l;
+}
+
+.menu {
+  grid-area: m;
+}
+
+.sidebar {
+  grid-area: s;
+}
+
+.main {
+  grid-area: mn;
+}
+
+.footer {
+  grid-area: f;
+}
 
 /* Do not change the CSS below. */
 
