@@ -6,31 +6,36 @@
 
 
 .main {
-  display: grid;
-  width: 900px;
+  grid-column: 2;
+  width: 1000px;
   
-
 }
 
-.sidebar {
-  grid-row: 1/5;
-  display: flex;
-  align-items: center;
-  justify-content: left;
- width: 300px;
+.header{
+  grid-row: 1;
+  display: grid;
+  width: 1700px
+}
+
+.body {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: minmax(90px,auto);
+width:2000px;
 
 }
 
 .primary-content{
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-areas:
-  "s"
-  "s"
-  "s"
-  "s" ;
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: minmax(100px,auto) auto auto auto;
+  width: 2000px;
 }
 
+.footer {
+  grid-row: 3;
+  grid-column: 1/4;
+}
 
 
 /* Do not change the CSS below. */
