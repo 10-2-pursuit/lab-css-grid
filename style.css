@@ -2,23 +2,47 @@
 
 /* Do not change the CSS below. */
 
+body {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-areas: 
+  "h h h h"
+  "pc pc pc pc"
+  "f f f f"
+}
+
 .header {
   background: #4242ea;
+  grid-area: h;
+  display: grid;
+  grid-template-areas: 
+  "img ul ul ul";
+}
+
+.primary-content {
+  display: grid;
+  grid-area: pc;
+  grid-template-areas: 
+  "sb m m m";
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  grid-area: img;
 }
 
 .menu ul {
   padding: 0;
+  grid-area: ul;
+  padding-left: 20px;
 }
 
 .menu ul li {
   display: inline-block;
   padding: 15px;
+  
 }
 
 .menu a {
@@ -27,19 +51,23 @@
 }
 
 .sidebar {
+  grid-area: sb;
   background: #2d2d2d;
   color: white;
   text-align: center;
 }
 
 .main {
+  grid-area: m;
   background: #ececec;
   height: 750px;
   text-align: center;
 }
 
 .footer {
+  grid-area: f;
   background: yellow;
   padding: 10px;
   text-align: center;
 }
+
