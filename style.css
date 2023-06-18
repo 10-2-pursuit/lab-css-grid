@@ -1,4 +1,32 @@
 /* Write your CSS here! */
+.primary-content{
+  display: grid;
+  grid-template-columns: repeat(1fr,4);
+  grid-template-areas: 
+  "s m m m"
+  "f f f f"
+  ;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: repeat(1fr,4);
+  grid-template-areas: "h h h h";
+  grid-area: h;
+}
+
+.sidebar{
+  grid-area: s;
+}
+
+.main{
+  grid-area: m;
+}
+
+.footer{
+  grid-area: f;
+}
+
 
 /* Do not change the CSS below. */
 
