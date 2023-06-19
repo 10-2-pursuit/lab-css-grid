@@ -39,6 +39,8 @@ body {
 
   grid-area: header;
 
+  /* height: 150px; */
+
   display: grid;
 
   grid-template-columns: 1fr 2fr 1fr;

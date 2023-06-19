@@ -1,0 +1,34 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1687106539190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687149496657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   display: grid;\n \n   grid-template-columns: 1fr 3fr;\n \n-  grid-area: content;\n+  grid-area: main;\n \n }\n \n /* Do not change the CSS below. */\n"
+                },
+                {
+                    "date": 1687149507075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   grid-template-areas: \n \n     \"header header header header\"\n \n-    \"content content content content\"\n+    \"nain\"\n \n     \"footer footer footer footer\";\n \n }\n"
+                },
+                {
+                    "date": 1687149518576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   grid-template-areas: \n \n     \"header header header header\"\n \n-    \"nain\"\n+    \"main main main main\"\n \n     \"footer footer footer footer\";\n \n }\n"
+                },
+                {
+                    "date": 1687149545555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,8 @@\n   background: #4242ea;\n \n   grid-area: header;\n \n-  /* height: 150px; */\n \n   display: grid;\n \n   grid-template-columns: 1fr 2fr 1fr;\n"
+                }
+            ],
+            "date": 1687106539190,
+            "name": "Commit-0",
+            "content": "/* Write your CSS here! */\nbody {\n\n  display:grid; \n\n  grid-template-columns: repeat(4 auto);\n\n  grid-template-rows: auto;\n\n  grid-template-areas: \n\n    \"header header header header\"\n\n    \"content content content content\"\n\n    \"footer footer footer footer\";\n\n}\n\n\n\n.primary-content {\n\n  display: grid;\n\n  grid-template-columns: 1fr 3fr;\n\n  grid-area: content;\n\n}\n\n/* Do not change the CSS below. */\n\n\n\n.header {\n\n  background: #4242ea;\n\n  grid-area: header;\n\n  /* height: 150px; */\n\n  display: grid;\n\n  grid-template-columns: 1fr 2fr 1fr;\n\n}\n\n\n\n.logo img {\nheight: 50px; margin: 15px 0 0 15px; width: auto;}.menu ul { padding: 0;}.menu ul li { display: inline-block; padding: 15px;}.menu a { color: white; text-decoration: none;}.sidebar { background: #2d2d2d; color: white; text-align: center;}.main { background: #ececec; height: 750px; text-align: center;}.footer {\n\n  background: yellow;\n\n  padding: 10px;\n\n  text-align: center;\n\n  grid-area: footer;\n\n}\n\n/* Do not change the CSS below. */\n\n.header {\n  background: #4242ea;\n}\n\n.logo img {\n  height: 50px;\n  margin: 15px 0 0 15px;\n  width: auto;\n}\n\n.menu ul {\n  padding: 0;\n}\n\n.menu ul li {\n  display: inline-block;\n  padding: 15px;\n}\n\n.menu a {\n  color: white;\n  text-decoration: none;\n}\n\n.sidebar {\n  background: #2d2d2d;\n  color: white;\n  text-align: center;\n}\n\n.main {\n  background: #ececec;\n  height: 750px;\n  text-align: center;\n}\n\n.footer {\n  background: yellow;\n  padding: 10px;\n  text-align: center;\n}\n"
+        }
+    ]
+}
