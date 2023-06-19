@@ -125,3 +125,4 @@ cypress/screenshots
 
 .lh/*
 .history/*
+*.json

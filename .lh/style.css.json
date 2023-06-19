@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1687106539190,
@@ -24,6 +24,146 @@
                 {
                     "date": 1687149545555,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,8 @@\n   background: #4242ea;\n \n   grid-area: header;\n \n-  /* height: 150px; */\n \n   display: grid;\n \n   grid-template-columns: 1fr 2fr 1fr;\n"
+                },
+                {
+                    "date": 1687152231330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,15 +36,8 @@\n .header {\n \n   background: #4242ea;\n \n-  grid-area: header;\n-\n-\n-  display: grid;\n-\n-  grid-template-columns: 1fr 2fr 1fr;\n-\n }\n \n \n \n"
+                },
+                {
+                    "date": 1687152237787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,11 +33,9 @@\n \n \n \n .header {\n-\n   background: #4242ea;\n-\n }\n \n \n \n"
+                },
+                {
+                    "date": 1687153863724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,15 @@\n \n /* Do not change the CSS below. */\n \n .header {\n-  background: #4242ea;\n+  grid-area: header;\n+\n+  /* height: 150px; */\n+\n+  display: grid;\n+\n+  grid-template-columns: 1fr 2fr 1fr;\n }\n \n .logo img {\n   height: 50px;\n"
+                },
+                {
+                    "date": 1687153876330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,8 @@\n \n .header {\n   grid-area: header;\n \n-  /* height: 150px; */\n \n   display: grid;\n \n   grid-template-columns: 1fr 2fr 1fr;\n"
+                },
+                {
+                    "date": 1687153885024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,11 +56,9 @@\n \n .header {\n   grid-area: header;\n \n-\n   display: grid;\n-\n   grid-template-columns: 1fr 2fr 1fr;\n }\n \n .logo img {\n"
+                },
+                {
+                    "date": 1687153919848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,26 +38,20 @@\n }\n \n \n \n-.logo img {\n-height: 50px; margin: 15px 0 0 15px; width: auto;}.menu ul { padding: 0;}.menu ul li { display: inline-block; padding: 15px;}.menu a { color: white; text-decoration: none;}.sidebar { background: #2d2d2d; color: white; text-align: center;}.main { background: #ececec; height: 750px; text-align: center;}.footer {\n \n-  background: yellow;\n \n-  padding: 10px;\n \n-  text-align: center;\n \n-  grid-area: footer;\n \n+\n }\n \n /* Do not change the CSS below. */\n \n .header {\n   grid-area: header;\n-\n   display: grid;\n   grid-template-columns: 1fr 2fr 1fr;\n }\n \n"
+                },
+                {
+                    "date": 1687153926584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,17 +37,8 @@\n   background: #4242ea;\n }\n \n \n-\n-\n-\n-\n-\n-\n-\n-}\n-\n /* Do not change the CSS below. */\n \n .header {\n   grid-area: header;\n"
+                },
+                {
+                    "date": 1687154094842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n   background: #4242ea;\n }\n \n \n+\n /* Do not change the CSS below. */\n \n .header {\n   grid-area: header;\n"
+                },
+                {
+                    "date": 1687154100231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,10 +36,10 @@\n .header {\n   background: #4242ea;\n }\n \n+.footer \n \n-\n /* Do not change the CSS below. */\n \n .header {\n   grid-area: header;\n"
+                },
+                {
+                    "date": 1687154106083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,11 @@\n .header {\n   background: #4242ea;\n }\n \n-.footer \n+.footer {\n+  \n+}\n \n /* Do not change the CSS below. */\n \n .header {\n"
+                },
+                {
+                    "date": 1687154127528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n   background: #4242ea;\n }\n \n .footer {\n-  \n+  grid-area\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154133887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n   background: #4242ea;\n }\n \n .footer {\n-  grid-area\n+  grid-area: \n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154139277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n   background: #4242ea;\n }\n \n .footer {\n-  grid-area: \n+  grid-area: footer\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154154220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,10 @@\n   background: #4242ea;\n }\n \n .footer {\n-  grid-area: footer\n+  grid-area: footer;\n+  display\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154161784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n }\n \n .footer {\n   grid-area: footer;\n-  display\n+  display: grib\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154170663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,10 @@\n }\n \n .footer {\n   grid-area: footer;\n-  display: grib\n+  display: grid;\n+  gri\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154176057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n \n .footer {\n   grid-area: footer;\n   display: grid;\n-  gri\n+  grid-template-columns: ;\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154181194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n \n .footer {\n   grid-area: footer;\n   display: grid;\n-  grid-template-columns: ;\n+  grid-template-columns: 1;\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154190059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n \n .footer {\n   grid-area: footer;\n   display: grid;\n-  grid-template-columns: 1;\n+  grid-template-columns: 1f 2f ;\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154315014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,14 +34,15 @@\n \n \n .header {\n   background: #4242ea;\n+  \n }\n \n .footer {\n   grid-area: footer;\n   display: grid;\n-  grid-template-columns: 1f 2f ;\n+  grid-template-columns: 1f 2f 1f;\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154332816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,12 @@\n \n \n \n .header {\n-  background: #4242ea;\n-  \n+background: #4242ea;\n+  grid-area: header;\n+display: grid;\n+grid-template-columns: 1fr 2fr 1fr;\n }\n \n .footer {\n   grid-area: footer;\n"
+                },
+                {
+                    "date": 1687154353002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,10 @@\n \n \n .header {\n background: #4242ea;\n-  grid-area: header;\n-display: grid;\n-grid-template-columns: 1fr 2fr 1fr;\n+grid-area: header;\n+display: gridgrid-template-columns: 1fr 2fr 1fr;\n }\n \n .footer {\n   grid-area: footer;\n"
+                },
+                {
+                    "date": 1687154375449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,10 @@\n \n .header {\n background: #4242ea;\n grid-area: header;\n-display: gridgrid-template-columns: 1fr 2fr 1fr;\n+display: grid;\n+grid-template-columns: 1fr 2fr 1fr;\n }\n \n .footer {\n   grid-area: footer;\n"
+                },
+                {
+                    "date": 1687154401796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n .footer {\n   grid-area: footer;\n   display: grid;\n   grid-template-columns: 1f 2f 1f;\n+  \n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154420298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,10 +42,12 @@\n \n .footer {\n   grid-area: footer;\n   display: grid;\n-  grid-template-columns: 1f 2f 1f;\n-  \n+  grid-template-columns: 1fr 2f 1f;\n+  background: yellow;\n+  padding: 10px;\n+  text-align: center;\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154434525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,11 @@\n grid-template-columns: 1fr 2fr 1fr;\n }\n \n .footer {\n-  grid-area: footer;\n+grid-area: footer;\n   display: grid;\n-  grid-template-columns: 1fr 2f 1f;\n+  grid-template-columns: 1fr 2fr 1fr;\n   background: yellow;\n   padding: 10px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1687154440416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,12 +41,12 @@\n }\n \n .footer {\n grid-area: footer;\n-  display: grid;\n-  grid-template-columns: 1fr 2fr 1fr;\n-  background: yellow;\n-  padding: 10px;\n+display: grid;\n+grid-template-columns: 1fr 2fr 1fr;\n+background: yellow;\n+padding: 10px;\n   text-align: center;\n }\n \n /* Do not change the CSS below. */\n"
+                },
+                {
+                    "date": 1687154461744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,12 +28,9 @@\n   grid-area: main;\n \n }\n \n-/* Do not change the CSS below. */\n \n-\n-\n .header {\n background: #4242ea;\n grid-area: header;\n display: grid;\n@@ -45,9 +42,9 @@\n display: grid;\n grid-template-columns: 1fr 2fr 1fr;\n background: yellow;\n padding: 10px;\n-  text-align: center;\n+text-align: center;\n }\n \n /* Do not change the CSS below. */\n \n"
+                },
+                {
+                    "date": 1687154473120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,12 +25,10 @@\n \n   grid-template-columns: 1fr 3fr;\n \n   grid-area: main;\n-\n }\n \n-\n .header {\n background: #4242ea;\n grid-area: header;\n display: grid;\n"
+                },
+                {
+                    "date": 1687154478769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,13 +19,10 @@\n \n \n \n .primary-content {\n-\n-  display: grid;\n-\n+display: grid;\n   grid-template-columns: 1fr 3fr;\n-\n   grid-area: main;\n }\n \n .header {\n"
+                },
+                {
+                    "date": 1687154487907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,14 +16,12 @@\n     \"footer footer footer footer\";\n \n }\n \n-\n-\n .primary-content {\n display: grid;\n-  grid-template-columns: 1fr 3fr;\n-  grid-area: main;\n+grid-template-columns: 1fr 3fr;\n+grid-area: main;\n }\n \n .header {\n background: #4242ea;\n"
+                },
+                {
+                    "date": 1687154495461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,10 @@\n \n   grid-template-areas: \n \n     \"header header header header\"\n-\n     \"main main main main\"\n-\n     \"footer footer footer footer\";\n-\n }\n \n .primary-content {\n display: grid;\n"
+                },
+                {
+                    "date": 1687154507236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,9 @@\n \n   grid-template-columns: repeat(4 auto);\n \n   grid-template-rows: auto;\n-\n   grid-template-areas: \n-\n     \"header header header header\"\n     \"main main main main\"\n     \"footer footer footer footer\";\n }\n"
+                },
+                {
+                    "date": 1687154513127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,8 @@\n /* Write your CSS here! */\n body {\n-\n   display:grid; \n-\n   grid-template-columns: repeat(4 auto);\n-\n   grid-template-rows: auto;\n   grid-template-areas: \n     \"header header header header\"\n     \"main main main main\"\n"
+                },
+                {
+                    "date": 1687154519524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n /* Write your CSS here! */\n body {\n-  display:grid; \n-  grid-template-columns: repeat(4 auto);\n-  grid-template-rows: auto;\n+display:grid; \n+grid-template-columns: repeat(4 auto);\n+grid-template-rows: auto;\n   grid-template-areas: \n     \"header header header header\"\n     \"main main main main\"\n     \"footer footer footer footer\";\n"
                 }
             ],
             "date": 1687106539190,
