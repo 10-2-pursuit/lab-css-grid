@@ -123,3 +123,6 @@ cypress/screenshots
 .DS_Store
 
 
+.lh/*
+.history/*
+*.json
