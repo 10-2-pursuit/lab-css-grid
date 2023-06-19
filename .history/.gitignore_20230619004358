@@ -123,4 +123,4 @@ cypress/screenshots
 .DS_Store
 
 
-.lh/*
+.lh
