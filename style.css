@@ -1,5 +1,35 @@
 /* Write your CSS here! */
 
+primary-content, .header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color:#4242ea;
+  .menu ul{
+    grid-template-rows: start;
+  }
+}
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0;
+  margin:0;
+}
+.sidebar {
+  display: grid;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+.main {
+  background-color:grey;
+  padding: 20px;
+}
+/* Styling for the footer */
+.footer {
+  background-color:yellow;
+  padding: 20px;
+} */
+
 /* Do not change the CSS below. */
 
 .header {
@@ -24,6 +54,7 @@
 .menu a {
   color: white;
   text-decoration: none;
+  padding-left: 60px;
 }
 
 .sidebar {
