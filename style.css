@@ -1,5 +1,13 @@
 /* Write your CSS here! */
+.header, .primary-content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
 
+.menu {
+  background-color: #4242ea;
+  text-align: left;
+}
 /* Do not change the CSS below. */
 
 .header {
