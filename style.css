@@ -4,6 +4,9 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 .logo img {
@@ -13,7 +16,7 @@
 }
 
 .menu ul {
-  padding: 0;
+  padding-left: 0;
 }
 
 .menu ul li {
@@ -26,10 +29,20 @@
   text-decoration: none;
 }
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr ;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  border:10px solid green;
+}
+
 .sidebar {
   background: #2d2d2d;
   color: white;
   text-align: center;
+  border: 5px solid red;
 }
 
 .main {
