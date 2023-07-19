@@ -1,15 +1,38 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-area: pc;
+  grid-template-areas: "sb m m m";
+}
 
+header {
+  display: grid;
+  grid-area: h;
+  grid-template-areas: 
+  "img ul ul ul";
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-areas: 
+  "h h h h"
+  "pc pc pc pc"
+  "f f f f";
+  position: absolute;
+}
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+  grid-area: h;
+  height: 80px;
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  grid-area: img;
 }
 
 .menu ul {
@@ -19,6 +42,7 @@
 .menu ul li {
   display: inline-block;
   padding: 15px;
+  grid-area: ul;
 }
 
 .menu a {
@@ -30,16 +54,21 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  grid-area: sb;
 }
+
 
 .main {
   background: #ececec;
-  height: 750px;
+  height: 450px;
   text-align: center;
+  grid-area: m;
 }
 
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+  grid-area: f;
 }
+
