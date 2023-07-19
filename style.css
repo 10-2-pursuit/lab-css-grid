@@ -1,4 +1,65 @@
-/* Write your CSS here! */
+
+
+.primary-content {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  grid-column: 1 / span 2;;
+}
+
+
+.sidebar {
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  height: 600px;
+}
+
+
+.main {
+  background-color: #ececec;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.header {
+  background-color: #4242ea;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+ 
+.footer {
+  background-color: yellow;
+  text-align: center;
+  padding: 50px;
+}
+
+
 
 /* Do not change the CSS below. */
 
@@ -18,7 +79,7 @@
 
 .menu ul li {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
 }
 
 .menu a {
@@ -40,6 +101,6 @@
 
 .footer {
   background: yellow;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
 }
